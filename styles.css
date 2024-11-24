@@ -1,0 +1,194 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background: url('assets/images/background-1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Main Container */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Header */
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 1rem 2rem;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+header ul li a:hover {
+    color: #00ffff;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #00ffff;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero .btn {
+    padding: 1rem 2rem;
+    background: linear-gradient(45deg, #ff00ff, #00ffff);
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero .btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #ff00ff;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 2rem 0;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Skills Section */
+.skills {
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem 0;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.skill img {
+    width: 100px;
+    height: auto;
+}
+
+.skill p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 2rem 0;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.contact-form label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: none;
+    background: #333;
+    color: #fff;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 1rem;
+    background: linear-gradient(45deg, #ff00ff, #00ffff);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.8);
+    margin-top: auto;
+}
